@@ -5,36 +5,36 @@ import CareerItem from "@/components/sections/CareerItem";
 
 const Positions = [{
   id: '0',
-  title: 'Codeforces Div. 4 (demo)',
+  title: 'SQRToj',
   slots: 1,
-  contestlink: 'https://example.com',
-  description: `demo text`,
-  location: 'Codeforces (Online)',
-  salaryRange: 'Easy'
+  contestlink: 'https://sqrtoj.edu.vn/contests/',
+  description: `SQRToj is a online judges, the official OJ of SQRT club, working on sqrtoj.edu.vn`,
+  location: 'admin@sqrtoj.edu.vn',
+  salaryRange: 'sqrtoj.edu.vn'
 }, {
   id: '1',
-  title: 'Codeforces Div. 4 (demo)',
+  title: 'QTOJ',
   slots: 1,
-  contestlink: 'https://example.com',
-  description: `demo text`,
-  location: 'Codeforces (Online)',
-  salaryRange: 'Easy'
+  contestlink: 'https://quangtrioj.edu.vn/',
+  description: `Quang Tri Online Judges (QTOJ) is a onine judge, developed by students from Cam Lo High School, Quang Tri Province. You can visit QTOJ at quangtrioj.edu.vn`,
+  location: 'awmpubg42@gmail.com',
+  salaryRange: 'quangtrioj.edu.vn'
 }, {
   id: '2',
-  title: 'Codeforces Div. 4 (demo)',
+  title: 'THQNOJ',
   slots: 1,
-  contestlink: 'https://example.com',
-  description: `demo text`,
-  location: 'Codeforces (Online)',
-  salaryRange: 'Easy'
+  contestlink: 'http://tinhocquangninh.ddns.net/',
+  description: `Tin Hoc Quang Nam OJ (THQNOJ) is a online judge, based on DMOJ system. It was build for CP Team of Tran Phu High School, but nowadays it's become public. Visit THQNOJ at: tinhocquangning.ddns.net`,
+  location: 'Discord: giorzang',
+  salaryRange: 'tinhocquangninh.ddns.com'
 }, {
   id: '3',
-  title: 'Codeforces Div. 4 (demo)',
+  title: 'TLEOJ (down)',
   slots: 1,
-  contestlink: 'https://example.com',
-  description: `demo text`,
-  location: 'Codeforces (Online)',
-  salaryRange: 'Easy'
+  contestlink: 'https://tleoj.edu.vn/',
+  description: `TLEOJ is a online judge based on DMOJ. It was down recently, and we don't know when it will be back!`,
+  location: '(null)',
+  salaryRange: 'tleoj.edu.vn (down)'
 }]
 
 export default function Careers() {
@@ -43,10 +43,10 @@ export default function Careers() {
   >
     <div className={styles.sectionContent}>
       <SectionTitle>
-        Our Contests
+        Online Judges
       </SectionTitle>
       <div>
-        You can become better with us by participating in some of these competitions that we have listed below
+        You can become better with us by participating in some of these online judges that we recommend below:
       </div>
 
       {Positions.map(pos => (
