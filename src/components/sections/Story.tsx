@@ -28,23 +28,19 @@ const Slides = [{
   date: "DEC, 2020",
   title: <>
     <h3>
-      Câu chuyện Sản phẩm
+      Những cuộc thi đã tham gia
     </h3>
-    <span>NorthStudio' Story</span>
+    <span>ChuyenTinORZ's Story</span>
   </>,
   content: <>
     <p>
-      Được sinh ra bởi những dự án cộng đồng, giá trị của NorthStudio được tạo dựng bởi những gì chúng tôi cống hiến,
-      những sản phẩm tạo ra những đóng góp thực tế cho người dùng, cho xã hội.
+      Chúng tôi đã cùng nhau tham gia nhiều cuộc thi cùng nhau như: Da Nang Code Camp, ICPC Northen, preVOI, VOI,... Trong đó, chúng tôi cũng đã gặt hái được nhiều giải thưởng có giá trị.
     </p>
     <p>
-      Ở NorthStudio, điều tiên quyết khi định hướng về những dự án, những sản phẩm và những tính năng, chúng tôi đều đề
-      cao tính ứng dụng từ giai đoạn hình thành ý tưởng. Những sản phẩm của NorthStudio được lấy cảm hứng từ bất kỳ điều
-      gì trong cuộc sống của một con người bình thường, từ việc ăn uống, học tập lẫn giao tiếp xã hội.
+      Khi bạn tham gia vào Chuyên Tin ORZ, bạn sẽ được gặp gỡ những học sinh cùng đam mê, cùng họ tham gia học hỏi về tin học, cùng phát triển. Để có thể tham gia chúng tôi, truy cập vào server Discord: https://discord.gg/BvZBVuNXJ5
     </p>
     <p>
-      Chúng tôi tin rằng với những bộ óc kỳ quặc sống trong một đời sống tầm thường cùng những tấm lòng sôi sục khát
-      vọng cống hiến, những sản phẩm hữu ích sẽ được tạo ra.
+      Chúng tôi tin rằng, khi chúng tôi cứ tiếp tục phát triển. chúng tôi sẽ trở nên tốt hơn.
     </p>
     <p style={{fontStyle: "italic"}}>
       "Không cần phải cao siêu, miễn là hoàn thiện và hữu dụng."
