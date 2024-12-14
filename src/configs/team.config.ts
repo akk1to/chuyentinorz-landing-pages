@@ -1,6 +1,7 @@
 export const TeamMembers: Member[] = [{
   name: 'Anh Nhan Nguyen',
   position: 'System Engineer',
+  mail: "mailto:contact@akk1to.is-a.dev",
   skills: [
     'UI/UX',
     'Full-stack Web Development',
@@ -21,6 +22,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Le Xuan Ngoc',
   position: 'Lead Mobile Development',
+  mail: "akk1to.is-a.dev",
   skills: [
     'Mobile Development',
     'Frontend Development',
@@ -39,6 +41,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Nguyen Van Quyet',
   position: 'Mobile Developer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'UI/UX',
     'Mobile Development',
@@ -55,6 +58,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Hoang Ngoc Dung',
   position: 'Frontend Developer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'UI/UX',
     'Mobile Development',
@@ -71,6 +75,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Vo Thi Phuong Truc',
   position: 'Content Writer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'Content',
     'Marketing'
@@ -87,6 +92,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Nguyen Van Duc',
   position: 'Backend Developer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'NodeJs',
     'NestJs',
@@ -105,6 +111,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Le Vo Lan Nhi',
   position: 'Designer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'Figma',
     'UI/UX'
@@ -123,6 +130,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Ta Thi Huong',
   position: 'Tester',
+  mail: "akk1to.is-a.dev",
   skills: [
     'Testing',
     'Documenting'
@@ -139,6 +147,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Ho Huu Phuoc',
   position: 'Frontend Developer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'React.Js'
   ],
@@ -154,6 +163,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Nguyen Minh Duc',
   position: 'Mobile Developer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'React Native'
   ],
@@ -169,6 +179,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Nguyen Duy Tien',
   position: 'Frontend Developer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'React.Js'
   ],
@@ -184,6 +195,7 @@ export const TeamMembers: Member[] = [{
 }, {
   name: 'Cao The Anh',
   position: 'Frontend Developer',
+  mail: "akk1to.is-a.dev",
   skills: [
     'React.Js'
   ],

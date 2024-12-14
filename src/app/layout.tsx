@@ -6,8 +6,8 @@ import {ReactNode} from "react";
 const lexendDeca = Lexend_Deca({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'NorthStudio',
-  description: 'NorthStudio, Young - Passionate - Dedicated, Spreading Inspiration...',
+  title: 'ChuyenTinORZ',
+  description: 'ChuyenTinORZ - Learn, Inspire & Grow',
 }
 
 export default function RootLayout({

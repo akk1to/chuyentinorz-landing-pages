@@ -19,40 +19,40 @@ export interface HeroItem {
 }
 
 const items: HeroItem[] = [{
-  title: 'Young',
+  title: 'Learn',
   bgColor: '#cafe0e',
   txtColor: '#232323',
   meta: {
     images: [
-      'https://northstudio.vn/wp-content/uploads/2021/04/hero-1.jpg',
-      'https://northstudio.vn/wp-content/uploads/2021/04/hero-2.jpg',
+      'https://i.imgur.com/LbgsFhE.jpeg',
+      'https://i.imgur.com/RLUq6Sq.png',
     ],
-    title: `We're young buddies`,
-    description: `We focus on building young personnel with the belief that the strength comes from creativity. With the desire to create and the desire to contribute, our team uses our youth to create practical values and continuously improve.`
+    title: `We're young developer`,
+    description: `We focus on learning coding, with a particular emphasis on Competitive Programming. By solving problems daily, we continuously enhance our skills, working towards the goal of becoming professional developers in the future.`
   }
 }, {
-  title: 'Passionate',
+  title: 'Inspire',
   bgColor: '#ff6000',
   txtColor: '#ffffff',
   meta: {
     images: [
-      'https://northstudio.vn/wp-content/uploads/2021/04/hero-1.jpg',
-      'https://northstudio.vn/wp-content/uploads/2021/04/hero-2.jpg',
+      'https://i.imgur.com/Ouql6tp.png',
+      'https://i.imgur.com/G8OlmFP.png',
     ],
     title: `Empowered by passion`,
-    description: `Born with products from passion, we understand that bringing inspiration into the product development process is the foundation of creating truly quality products.`
+    description: `Empowered by passion, we are young coders on a mission to make technology accessible to everyone. Through courses, we aim to share our knowledge, spark creativity, and build a community where learning and innovation thrive. For us, coding is more than just code—it’s about solving problems and inspiring change.`
   }
 }, {
-  title: 'Dedicated',
+  title: 'Grow',
   bgColor: '#232323',
   txtColor: '#ffffff',
   meta: {
     images: [
-      'https://northstudio.vn/wp-content/uploads/2021/04/hero-1.jpg',
-      'https://northstudio.vn/wp-content/uploads/2021/04/hero-2.jpg',
+      'https://i.imgur.com/wIu2YBH.jpeg',
+      'https://i.imgur.com/4x75ktZ.png',
     ],
-    title: `Product first, time prioritized`,
-    description: `Time is a factor we always put first when developing products. The development process is optimized in terms of time and product quality is something we are always aware of the importance.`
+    title: `Better together, day by day`,
+    description: `We are a team of coders passionate about competitive programming. Through contests and collaboration, we push each other to grow, solve challenges, and celebrate victories. For us, it’s not just about winning—it’s about learning and improving as a team.`
   }
 }]
 
@@ -67,14 +67,12 @@ export default function HomeHero() {
   const {setHeroColors} = useThemeContext();
 
   const swapStudio = () => {
-    if (studio === 'Studio') {
-      setStudio('Apps');
-    } else if (studio === 'Apps') {
-      setStudio('Lab');
-    } else if (studio === 'Lab') {
-      setStudio('Minds');
-    } else {
-      setStudio('Studio');
+    if (studio === 'Coder') {
+      setStudio('Learn');
+    } else if (studio === 'Learn') {
+      setStudio('Chat');
+    }  else {
+      setStudio('Coder');
     }
   }
 
@@ -119,7 +117,7 @@ export default function HomeHero() {
           <NorthStudioIcon className={styles.icon} fill={textColor} onClick={swapStudio}/>
           <div className={styles.companyMeta}>
             <div className={styles.companyName}>
-              North
+              ORZ
               <div className={styles.studioPart} onClick={swapStudio}>
                 {studio}
               </div>

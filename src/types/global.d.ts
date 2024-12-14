@@ -1,6 +1,7 @@
 interface Member {
   name: string;
   position: string;
+  mail: string;
   skills: string[];
   certificates: string[];
   education?: {

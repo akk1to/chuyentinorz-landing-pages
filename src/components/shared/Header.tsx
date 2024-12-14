@@ -25,7 +25,7 @@ export default function AppHeader() {
     <div className={styles.headerContent}>
       <div className={styles.branding}>
         <NorthStudioIcon width={16} height={16} fill={heroColors.text} />
-        NorthStudio
+        ChuyenTinORZ
       </div>
       <div className={styles.links}>
         {NavigationConfig.map(item => (

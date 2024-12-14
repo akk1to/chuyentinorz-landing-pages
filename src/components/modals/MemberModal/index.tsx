@@ -39,7 +39,7 @@ export default function MemberModal(props: MemberModalProps) {
         </div>
         <div className={styles.contactArea}>
           <div className={styles.contactBtn}>
-            <Envelope/> Email
+            <Envelope/> <a href={member?.mail} className={styles.mailtext}>Mail</a>
           </div>
         </div>
       </div>

@@ -7,25 +7,20 @@ import Story02 from "@/assets/figures/story-02.jpg";
 
 const Slides = [{
   image: Story01.src,
-  date: "MAY, 2023",
+  date: "DEC 07-08, 2024",
   title: <>
     <h3>
-      Câu chuyện về Con người
+      Niềm đam mê <br></br> tin học
     </h3>
-    <span>NorthStudio' Story</span>
+    <span>ChuyenTinORZ's Story</span>
   </>,
   content: <>
     <p>
-      Được thành lập cuối năm 2020, NorthStudio hình thành bởi một khát vọng mang lại những giá trị thực tiễn từ lòng
-      nhiệt huyết, tinh thần trẻ và những đôi tay trẻ của những con người trẻ. Thời điểm mới thành lập, đội ngũ của
-      “Những kẻ hướng về Phương Bắc” mới chỉ mười tám, mười chín tuổi, là những kẻ ngông cuồng tìm lấy cho mình một con
-      đường đổi đời, một con đường mà ở đó những ý tưởng ấp ủ, những ước mơ được hoá thành hiện thực.
+      Được thành lập vào tháng 8 năm 2021, bởi kodomotachi (Trần Quốc huy), hội tụ các bạn học sinh/sinh viên có niềm đam mê với tin học...
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla tempor convallis. Sed at ligula quis lectus venenatis pretium nec non ex. Mauris sodales eleifend nibh id porttitor. Nullam a nulla consectetur, efficitur mauris nec, aliquet arcu. Pellentesque nec mauris eget turpis vestibulum suscipit vel nec sapien. Phasellus id eros odio.
     </p>
     <p>
-      Ở đây, chúng tôi không chỉ có những con người đang làm việc, đang hướng tới work-life-balance, chúng tôi có những
-      con người sống được cùng công việc và biến được công việc trở thành một phần thú vị của cuộc sống. Vì, chúng tôi
-      quan niệm rằng cuộc sống sẽ thật là vô nghĩa nếu không có công việc, không có những sự cống hiến và cuộc đời sẽ
-      thật là vô ích nếu như không mang lại giá trị gì cho xã hội bên ngoài.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla tempor convallis. Sed at ligula quis lectus venenatis pretium nec non ex. Mauris sodales eleifend nibh id porttitor. Nullam a nulla consectetur, efficitur mauris nec, aliquet arcu. Pellentesque nec mauris eget turpis vestibulum suscipit vel nec sapien. Phasellus id eros odio.
     </p>
   </>
 }, {
@@ -76,10 +71,10 @@ export default function Story() {
   >
     <div className={styles.sectionContent}>
       <SectionTitle>
-        Our Story
+        Our Journey
       </SectionTitle>
       <div>
-        Story of a journey...
+        Journey from the beginning...
       </div>
 
       <StoryCarousel
