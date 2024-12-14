@@ -16,11 +16,11 @@ const Slides = [{
   </>,
   content: <>
     <p>
-      Được thành lập vào tháng 8 năm 2021, bởi kodomotachi (Trần Quốc huy), hội tụ các bạn học sinh/sinh viên có niềm đam mê với tin học...
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla tempor convallis. Sed at ligula quis lectus venenatis pretium nec non ex. Mauris sodales eleifend nibh id porttitor. Nullam a nulla consectetur, efficitur mauris nec, aliquet arcu. Pellentesque nec mauris eget turpis vestibulum suscipit vel nec sapien. Phasellus id eros odio.
+      Được thành lập vào tháng 8 năm 2021, bởi kodomotachi (Trần Quốc Huy), hội tụ các bạn học sinh/sinh viên có niềm đam mê với tin học ở mọi miền trên đất nước.
+      Mục tiêu của team là: <strong>phát triển cùng nhau trong lĩnh vực lập trình thi đấu</strong>. 
     </p>
     <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla tempor convallis. Sed at ligula quis lectus venenatis pretium nec non ex. Mauris sodales eleifend nibh id porttitor. Nullam a nulla consectetur, efficitur mauris nec, aliquet arcu. Pellentesque nec mauris eget turpis vestibulum suscipit vel nec sapien. Phasellus id eros odio.
+    Nhóm có một số thành viên tiêu biểu như: Đào Lê Bảo Minh (Glowcheese), Trần Quốc Huy (KodomoTachi), Nguyễn Nguyễn Gia Bảo (TrendBattles), giorzang, Jase Sous,... là những thành viên chủ chốt của nhóm.
     </p>
   </>
 }, {

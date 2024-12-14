@@ -5,32 +5,36 @@ import CareerItem from "@/components/sections/CareerItem";
 
 const Positions = [{
   id: '0',
-  title: 'Frontend Developer (React.Js)',
+  title: 'Codeforces Div. 4 (demo)',
   slots: 1,
-  description: `We're finding React.Js Developer to work on our products. Our team planning to create a social network platform based on decentralized technologies.`,
-  location: 'Hanoi, Ho Chi Minh City',
-  salaryRange: '$600 - $1200'
+  contestlink: 'https://example.com',
+  description: `demo text`,
+  location: 'Codeforces (Online)',
+  salaryRange: 'Easy'
 }, {
   id: '1',
-  title: 'Backend Developer (Node.Js, NestJs)',
+  title: 'Codeforces Div. 4 (demo)',
   slots: 1,
-  description: `We're finding NestJs Developer to work on our products. Our team planning to create a social network platform based on decentralized technologies.`,
-  location: 'Hanoi',
-  salaryRange: '$800 - $1400'
+  contestlink: 'https://example.com',
+  description: `demo text`,
+  location: 'Codeforces (Online)',
+  salaryRange: 'Easy'
 }, {
   id: '2',
-  title: 'Mobile Developer (ReactNative)',
+  title: 'Codeforces Div. 4 (demo)',
   slots: 1,
-  description: `We're finding ReactNative Developer to work with our utility apps that serving million of our users.`,
-  location: 'Hanoi',
-  salaryRange: '$800 - $1400'
+  contestlink: 'https://example.com',
+  description: `demo text`,
+  location: 'Codeforces (Online)',
+  salaryRange: 'Easy'
 }, {
   id: '3',
-  title: 'Human Resources Specialist',
+  title: 'Codeforces Div. 4 (demo)',
   slots: 1,
-  description: `We're finding A human resource specialist to handle internal activities and do recruiting works.`,
-  location: 'Hanoi',
-  salaryRange: '$500 - $800'
+  contestlink: 'https://example.com',
+  description: `demo text`,
+  location: 'Codeforces (Online)',
+  salaryRange: 'Easy'
 }]
 
 export default function Careers() {
@@ -39,10 +43,10 @@ export default function Careers() {
   >
     <div className={styles.sectionContent}>
       <SectionTitle>
-        Be our teammates
+        Our Contests
       </SectionTitle>
       <div>
-        Work with us, in a highly motivated environment. We're looking for:
+        You can become better with us by participating in some of these competitions that we have listed below
       </div>
 
       {Positions.map(pos => (
@@ -50,6 +54,7 @@ export default function Careers() {
           key={pos.id}
           title={pos.title}
           description={pos.description}
+          contestlink={pos.contestlink}
           location={pos.location}
           salaryRange={pos.salaryRange}
         />

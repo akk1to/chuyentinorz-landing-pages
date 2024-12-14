@@ -6,11 +6,12 @@ import MoneyCheck from "@/assets/icons/MoneyCheck";
 interface CareerItemProps {
   title: string,
   description: string,
+  contestlink: string,
   location: string,
   salaryRange: string
 }
 
-export default function CareerItem({title, description, location, salaryRange}: CareerItemProps) {
+export default function CareerItem({title, description, location, salaryRange, contestlink}: CareerItemProps) {
   return <div className={styles.outer}>
     <div className={styles.inner}>
       <div className={styles.title}>
@@ -21,7 +22,7 @@ export default function CareerItem({title, description, location, salaryRange}: 
       </div>
       <div className={styles.controls}>
         <div className={styles.btn}>
-          Request Job Description
+          <a href={contestlink} className={styles.contest}>Participate with us</a>
         </div>
       </div>
       <div className={styles.meta}>
