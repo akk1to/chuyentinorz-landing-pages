@@ -12,11 +12,11 @@ export const NavigationConfig = [{
   url: '/team'
 }, {
   key: 'story',
-  title: 'Story',
+  title: 'About us',
   url: '#story'
 }, {
   key: 'career',
-  title: 'Career',
+  title: 'Online Judges',
   url: '#career'
 }, {
   key: 'contact',

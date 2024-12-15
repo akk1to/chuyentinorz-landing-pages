@@ -48,7 +48,7 @@ const items: HeroItem[] = [{
   txtColor: '#ffffff',
   meta: {
     images: [
-      'https://i.imgur.com/wIu2YBH.jpeg',
+      'https://i.imgur.com/1EKBFOt.jpeg',
       'https://i.imgur.com/4x75ktZ.png',
     ],
     title: `Better together, day by day`,

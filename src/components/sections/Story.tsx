@@ -3,7 +3,7 @@ import styles from "./sections.module.scss";
 import SectionTitle from "@/components/shared/SectionTitle";
 import StoryCarousel from "@/components/carousels/StoryCarousel";
 import Story01 from "@/assets/figures/story-01.jpg";
-import Story02 from "@/assets/figures/story-02.jpg";
+import Story02 from "@/assets/figures/story-2.jpg";
 
 const Slides = [{
   image: Story01.src,
@@ -20,15 +20,15 @@ const Slides = [{
       Mục tiêu của team là: <strong>phát triển cùng nhau trong lĩnh vực lập trình thi đấu</strong>. 
     </p>
     <p>
-    Nhóm có một số thành viên tiêu biểu như: Đào Lê Bảo Minh (Glowcheese), Trần Quốc Huy (KodomoTachi), Nguyễn Nguyễn Gia Bảo (TrendBattles), giorzang, Jase Sous,... là những thành viên chủ chốt của nhóm.
+    Nhóm có một số thành viên tiêu biểu như: Đào Lê Bảo Minh (Glowcheese), Trần Quốc Huy (KodomoTachi), Nguyễn Nguyễn Gia Bảo (TrendBattles), Vũ Trường Giang (giorzang), Jase Sous,... là những thành viên chủ chốt của nhóm.
     </p>
   </>
 }, {
   image: Story02.src,
-  date: "DEC, 2020",
+  date: "NOV 17, 2024",
   title: <>
     <h3>
-      Những cuộc thi đã tham gia
+      Phát triển <br></br>cùng nhau
     </h3>
     <span>ChuyenTinORZ's Story</span>
   </>,

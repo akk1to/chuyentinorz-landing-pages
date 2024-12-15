@@ -7,34 +7,34 @@ const Positions = [{
   id: '0',
   title: 'SQRToj',
   slots: 1,
-  contestlink: 'https://sqrtoj.edu.vn/contests/',
+  contestlink: 'https://sqrtoj.edu.vn/',
   description: `SQRToj is a online judges, the official OJ of SQRT club, working on sqrtoj.edu.vn`,
-  location: 'admin@sqrtoj.edu.vn',
-  salaryRange: 'sqrtoj.edu.vn'
+  location: 'sqrtoj.edu.vn',
+  salaryRange: 'admin@sqrtoj.edu.vn'
 }, {
   id: '1',
   title: 'QTOJ',
   slots: 1,
   contestlink: 'https://quangtrioj.edu.vn/',
   description: `Quang Tri Online Judges (QTOJ) is a onine judge, developed by students from Cam Lo High School, Quang Tri Province. You can visit QTOJ at quangtrioj.edu.vn`,
-  location: 'awmpubg42@gmail.com',
-  salaryRange: 'quangtrioj.edu.vn'
+  location: 'quangtrioj.edu.vn',
+  salaryRange: 'awmpubg42@gmail.com'
 }, {
   id: '2',
   title: 'THQNOJ',
   slots: 1,
   contestlink: 'http://tinhocquangninh.ddns.net/',
   description: `Tin Hoc Quang Nam OJ (THQNOJ) is a online judge, based on DMOJ system. It was build for CP Team of Tran Phu High School, but nowadays it's become public. Visit THQNOJ at: tinhocquangning.ddns.net`,
-  location: 'Discord: giorzang',
-  salaryRange: 'tinhocquangninh.ddns.com'
+  location: 'tinhocquangninh.ddns.com',
+  salaryRange: 'Discord: giorzang'
 }, {
   id: '3',
-  title: 'TLEOJ (down)',
+  title: 'MarisaOJ',
   slots: 1,
-  contestlink: 'https://tleoj.edu.vn/',
-  description: `TLEOJ is a online judge based on DMOJ. It was down recently, and we don't know when it will be back!`,
-  location: '(null)',
-  salaryRange: 'tleoj.edu.vn (down)'
+  contestlink: 'https://marisaoj.com/',
+  description: `MarisaOJ is a very good online judge for beginners, cause they sort all problems into each courses, based on the level of the problems. Visit MarisaOJ at: marisaoj.com`,
+  location: 'marisaoj.com',
+  salaryRange: 'letuanhoang67@gmail.com'
 }]
 
 export default function Careers() {
