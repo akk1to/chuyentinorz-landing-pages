@@ -1,22 +1,25 @@
+import img01 from "@/assets/figures/story-01.jpg";
+import akk1tocover from "@/assets/teamimg/akk1to-cover.png";
+
 export const TeamMembers: Member[] = [{
-  name: 'Anh Nhan Nguyen',
-  position: 'System Engineer',
+  name: 'akk1to.dev',
+  position: 'Backend Developer',
   mail: "mailto:contact@akk1to.is-a.dev",
   skills: [
-    'UI/UX',
-    'Full-stack Web Development',
-    'Mobile Development',
+    'Webapp Developer',
+    'Server Manager',
+    'Website Developer',
     'Software Architect',
     'IoT', 'Hardware', 'Data Engineer'
   ],
   education: {
-    level: 'bachelor',
-    school: 'University of Greenwich Vietnam',
-    graduationYear: 2022
+    level: 'Student',
+    school: 'Ben Cat High School',
+    graduationYear: 2026
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/S49O9CV.jpg',
+  photo: akk1tocover.src,
   xl: true,
   onboarding: 2020,
 }, {
@@ -34,7 +37,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/ncJZF7p.jpg',
+  photo: img01.src,
   xl: true,
   type: 'xl2',
   onboarding: 2021,
@@ -53,7 +56,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/OlH8s66.jpg',
+  photo: img01.src,
   onboarding: 2022,
 }, {
   name: 'Hoang Ngoc Dung',
@@ -70,7 +73,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/C3b5S60.jpg',
+  photo: img01.src,
   onboarding: 2022,
 }, {
   name: 'Vo Thi Phuong Truc',
@@ -87,7 +90,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/7UnIEyD.jpg',
+  photo: img01.src,
   onboarding: 2023,
 }, {
   name: 'Nguyen Van Duc',
@@ -106,7 +109,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/nx0zktQ.jpg',
+  photo: img01.src,
   onboarding: 2023,
 }, {
   name: 'Le Vo Lan Nhi',
@@ -123,7 +126,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/7KyIEZj.png',
+  photo: img01.src,
   onboarding: 2021,
   xl: true,
   type: 'xl2'
@@ -142,7 +145,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/QbX3ag8.jpg',
+  photo: img01.src,
   onboarding: 2023,
 }, {
   name: 'Ho Huu Phuoc',
@@ -158,7 +161,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/7um7wZk.png',
+  photo: img01.src,
   onboarding: 2023,
 }, {
   name: 'Nguyen Minh Duc',
@@ -174,7 +177,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/EIE4xD0.jpg',
+  photo: img01.src,
   onboarding: 2023,
 }, {
   name: 'Nguyen Duy Tien',
@@ -190,7 +193,7 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/C7kkL8B.jpg',
+  photo: img01.src,
   onboarding: 2022,
 }, {
   name: 'Cao The Anh',
@@ -206,6 +209,6 @@ export const TeamMembers: Member[] = [{
   },
   awards: [],
   certificates: [],
-  photo: 'https://i.imgur.com/p6qbHbu.png',
+  photo: img01.src,
   onboarding: 2022,
 }]

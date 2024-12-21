@@ -6,6 +6,12 @@ import NorthStudioPattern from "@/assets/northstudio-pattern.svg";
 import NorthStudioPatternLight from "@/assets/northstudio-pattern-light.svg";
 import HomeHeroContent from "@/components/landing/HomeHeroContent";
 import {useThemeContext} from "@/components/providers/ThemeProvider";
+import section1img01 from "@/assets/homepage/section1/img01.jpeg";
+import section1img02 from "@/assets/homepage/section1/img02.png";
+import section2img01 from "@/assets/homepage/section2/img01.png";
+import section2img02 from "@/assets/homepage/section2/img02.png";
+import section3img01 from "@/assets/homepage/section3/img01.jpeg";
+import section3img02 from "@/assets/homepage/section3/img02.png";
 
 export interface HeroItem {
   title: string;
@@ -24,8 +30,8 @@ const items: HeroItem[] = [{
   txtColor: '#232323',
   meta: {
     images: [
-      'https://i.imgur.com/LbgsFhE.jpeg',
-      'https://i.imgur.com/RLUq6Sq.png',
+      section1img01.src,
+      section1img02.src,
     ],
     title: `We're young developer`,
     description: `We focus on learning coding, with a particular emphasis on Competitive Programming. By solving problems daily, we continuously enhance our skills, working towards the goal of becoming professional developers in the future.`
@@ -36,8 +42,8 @@ const items: HeroItem[] = [{
   txtColor: '#ffffff',
   meta: {
     images: [
-      'https://i.imgur.com/Ouql6tp.png',
-      'https://i.imgur.com/G8OlmFP.png',
+      section2img01.src,
+      section2img02.src,
     ],
     title: `Empowered by passion`,
     description: `Empowered by passion, we are young coders on a mission to make technology accessible to everyone. Through courses, we aim to share our knowledge, spark creativity, and build a community where learning and innovation thrive. For us, coding is more than just code—it’s about solving problems and inspiring change.`
@@ -48,8 +54,8 @@ const items: HeroItem[] = [{
   txtColor: '#ffffff',
   meta: {
     images: [
-      'https://i.imgur.com/1EKBFOt.jpeg',
-      'https://i.imgur.com/4x75ktZ.png',
+      section3img01.src,
+      section3img02.src,
     ],
     title: `Better together, day by day`,
     description: `We are a team of coders passionate about competitive programming. Through contests and collaboration, we push each other to grow, solve challenges, and celebrate victories. For us, it’s not just about winning—it’s about learning and improving as a team.`

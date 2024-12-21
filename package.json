@@ -1,6 +1,6 @@
 {
-  "name": "northstudio-landing",
-  "version": "0.1.0",
+  "name": "chuyentinorz-landing",
+  "version": "beta-0.3.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

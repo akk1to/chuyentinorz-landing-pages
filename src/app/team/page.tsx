@@ -16,8 +16,8 @@ export default function TeamPage() {
       </SectionTitle>
 
       <div className={styles.teamContainer}>
-        {TeamMembers.map(mem => (
-          <div
+        {TeamMembers.map((mem, i) => (
+          <div key = {i}
             className={`${styles.member} ${mem.xl ? styles[mem.type || 'xl'] : ''}`}
             style={{
               backgroundImage: `url(${mem.photo})`
