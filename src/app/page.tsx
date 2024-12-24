@@ -1,5 +1,6 @@
 "use client";
 import styles from './page.module.css'
+import { Analytics } from "@vercel/analytics/react";  
 import HomeHero from "@/components/landing/HomeHero";
 import AppHeader from "@/components/shared/Header";
 import ThemeProvider from "@/components/providers/ThemeProvider";
@@ -14,6 +15,7 @@ export default function Home() {
         <HomeHero/>
         <Story/>
         <Careers/>
+        <Analytics/>
       </ThemeProvider>
     </main>
   )
