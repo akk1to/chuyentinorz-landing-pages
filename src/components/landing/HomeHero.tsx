@@ -11,7 +11,7 @@ import section1img02 from "@/assets/homepage/section1/img02.png";
 import section2img01 from "@/assets/homepage/section2/img01.png";
 import section2img02 from "@/assets/homepage/section2/img02.png";
 import section3img01 from "@/assets/homepage/section3/img01.jpeg";
-import section3img02 from "@/assets/homepage/section3/img02.png";
+import section3img02 from "@/assets/homepage/section3/img02.png"
 
 export interface HeroItem {
   title: string;

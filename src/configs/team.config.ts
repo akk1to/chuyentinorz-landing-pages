@@ -1,5 +1,6 @@
-import img01 from "@/assets/figures/story-01.jpg";
+import img01 from "@/assets/chuyentinorz.png";
 import akk1tocover from "@/assets/teamimg/akk1to-cover.png";
+import tachicover from "@/assets/teamimg/tachicover.jpg";
 
 export const TeamMembers: Member[] = [{
   name: 'akk1to.dev',
@@ -12,35 +13,49 @@ export const TeamMembers: Member[] = [{
     'Software Architect',
     'IoT', 'Hardware', 'Data Engineer'
   ],
-  education: {
-    level: 'Student',
-    school: 'Ben Cat High School',
-    graduationYear: 2026
-  },
-  awards: [],
-  certificates: [],
+  educationSchool: "FPT Polytechnics",
+  educationLevel: 'College',
+  graduationYear: 2021,
+  awards: [
+    '2023 - Third Prize at KHKT Competition of Binh Duong Province',
+    '2024 - Third Prize at YTST Competition of Binh Duong Province'
+  ],
+  certificates: [
+    '2022 - KET Certificate from Cambridge English',
+    '2023 - PET Certificate from Cambridge English'
+  ],
   photo: akk1tocover.src,
   xl: true,
   onboarding: 2020,
+  experience: new Date().getFullYear() - 2020
 }, {
-  name: 'Le Xuan Ngoc',
-  position: 'Lead Mobile Development',
-  mail: "akk1to.is-a.dev",
+  name: 'Tran Quoc Huy',
+  position: 'Leader',
+  mail: "kodomotachi@akk1to.is-a.dev",
   skills: [
-    'Mobile Development',
-    'Frontend Development',
+    'Artifical Intelligence',
+    'Competitive Programming',
+    'Web Development',
+    'App Development',
   ],
-  education: {
-    level: 'College',
-    school: 'FPT Polytechnics',
-    graduationYear: 2021
-  },
-  awards: [],
-  certificates: [],
-  photo: img01.src,
+  educationSchool: 'PTITHCM University',
+  educationLevel: "Engineer's degree",
+  graduationYear: 2021,
+  awards: [
+    '2022 - Second prize, Provincial round in VOI 2022 (rank 3, 31.03.2022)',
+    '2023 - Third prize, ICPC PTITHCM 2023 - as beta_version',
+    '2023 - Consolation prize, ICPC Southern 2023 - as beta_version',
+    '2024 - Consolation prize, ICPC PTITHCM 2024 - as gamma_version',
+    '2024 - Third prize, ICPC PTIT 2024 - as gamma_version'
+  ],
+  certificates: [
+    'ICPC ID: https://icpc.global/ICPCID/R6DQS7R6JEA2',
+  ],
+  photo: tachicover.src,
   xl: true,
   type: 'xl2',
-  onboarding: 2021,
+  onboarding: 2020,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Nguyen Van Quyet',
   position: 'Mobile Developer',
@@ -49,15 +64,14 @@ export const TeamMembers: Member[] = [{
     'UI/UX',
     'Mobile Development',
   ],
-  education: {
-    level: 'engineer',
-    school: 'Trai Cai Nghien No. 07',
-    graduationYear: 2029
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2022,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Hoang Ngoc Dung',
   position: 'Frontend Developer',
@@ -66,15 +80,14 @@ export const TeamMembers: Member[] = [{
     'UI/UX',
     'Mobile Development',
   ],
-  education: {
-    level: 'engineer',
-    school: 'Trai Cai Nghien No. 07',
-    graduationYear: 2029
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2022,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Vo Thi Phuong Truc',
   position: 'Content Writer',
@@ -83,15 +96,14 @@ export const TeamMembers: Member[] = [{
     'Content',
     'Marketing'
   ],
-  education: {
-    level: 'Bachelor',
-    school: '',
-    graduationYear: 2023
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2023,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Nguyen Van Duc',
   position: 'Backend Developer',
@@ -102,15 +114,14 @@ export const TeamMembers: Member[] = [{
     'NextJs',
     'MongoDB'
   ],
-  education: {
-    level: 'Bachelor',
-    school: '',
-    graduationYear: 2023
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2023,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Le Vo Lan Nhi',
   position: 'Designer',
@@ -119,17 +130,16 @@ export const TeamMembers: Member[] = [{
     'Figma',
     'UI/UX'
   ],
-  education: {
-    level: '',
-    school: '',
-    graduationYear: 2023
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2021,
   xl: true,
-  type: 'xl2'
+  type: 'xl2',
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Ta Thi Huong',
   position: 'Tester',
@@ -138,15 +148,20 @@ export const TeamMembers: Member[] = [{
     'Testing',
     'Documenting'
   ],
-  education: {
-    level: 'Bachelor',
-    school: '',
-    graduationYear: 2023
-  },
-  awards: [],
-  certificates: [],
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
+  awards: [
+    '2023 - Third Prize at KHKT Competition of Binh Duong Province',
+    '2024 - Third Prize at YTST Competition of Binh Duong Province'
+  ],
+  certificates: [
+    '2022 - KET Certificate from Cambridge English',
+    '2023 - PET Certificate from Cambridge English'
+  ],
   photo: img01.src,
   onboarding: 2023,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Ho Huu Phuoc',
   position: 'Frontend Developer',
@@ -154,15 +169,14 @@ export const TeamMembers: Member[] = [{
   skills: [
     'React.Js'
   ],
-  education: {
-    level: 'College',
-    school: 'FPT Polytechnics',
-    graduationYear: 2023
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2023,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Nguyen Minh Duc',
   position: 'Mobile Developer',
@@ -170,15 +184,14 @@ export const TeamMembers: Member[] = [{
   skills: [
     'React Native'
   ],
-  education: {
-    level: 'Bachelor',
-    school: 'FPT',
-    graduationYear: 2023
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2023,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Nguyen Duy Tien',
   position: 'Frontend Developer',
@@ -186,15 +199,14 @@ export const TeamMembers: Member[] = [{
   skills: [
     'React.Js'
   ],
-  education: {
-    level: 'Bachelor',
-    school: 'FPT',
-    graduationYear: 2023
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2022,
+  experience: new Date().getFullYear() - 2020
 }, {
   name: 'Cao The Anh',
   position: 'Frontend Developer',
@@ -202,13 +214,12 @@ export const TeamMembers: Member[] = [{
   skills: [
     'React.Js'
   ],
-  education: {
-    level: 'Bachelor',
-    school: 'FPT',
-    graduationYear: 2023
-  },
+  educationSchool: 'FPT Polytechnics',
+  educationLevel: 'College',
+  graduationYear: 2021,
   awards: [],
   certificates: [],
   photo: img01.src,
   onboarding: 2022,
+  experience: new Date().getFullYear() - 2020
 }]
