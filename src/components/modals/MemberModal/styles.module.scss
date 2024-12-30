@@ -26,12 +26,11 @@
   max-height: 800px;
   background-color: black;
   border-radius: 24px;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow: auto;
   color: #ffffff;
-
+  
   .modalcontent {
-    overflow-x: hidden;
+    overflow: auto;
   }
   
   /* Scrollbar (not fixed yet) */
