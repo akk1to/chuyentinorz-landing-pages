@@ -7,11 +7,13 @@ interface CareerItemProps {
   title: string,
   description: string,
   contestlink: string,
-  location: string,
-  salaryRange: string
+  website: string,
+  mailadress: string,
+  websiteLink: string,
+  mailadressLink: string,
 }
 
-export default function CareerItem({title, description, location, salaryRange, contestlink}: CareerItemProps) {
+export default function CareerItem({title, description, contestlink, website, mailadress, websiteLink, mailadressLink}: CareerItemProps) {
   return <div className={styles.outer}>
     <div className={styles.inner}>
       <div className={styles.title}>
@@ -27,10 +29,10 @@ export default function CareerItem({title, description, location, salaryRange, c
       </div>
       <div className={styles.meta}>
         <div className={styles.salary}>
-          <MoneyCheck/> {salaryRange}
+          <MoneyCheck/> <a href={mailadressLink} className={styles.contesttime}>{mailadress}</a>
         </div>
         <div className={styles.location}>
-          <LocationPin/> {location}
+          <LocationPin/> <a href={websiteLink} className={styles.contesttime}>{website}</a>
         </div>
       </div>
       <div className={styles.positionHaunted}>
